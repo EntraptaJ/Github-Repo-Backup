@@ -1,6 +1,10 @@
-# Git Repo Backup
+# Github Repo Backup
 
-Git Repo Backup is a NodeJS Script that backs up all GitHub repositories owned by the user & token
+GitHub Repo Backup is a NodeJS Script that backs up all GitHub repositories owned by the user & token
+
+## Requirement
+
+You need to have
 
 ## Usage
 
