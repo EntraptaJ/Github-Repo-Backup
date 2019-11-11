@@ -1,0 +1,25 @@
+{
+  "name": "backups-git-repos",
+  "version": "0.0.1",
+  "description": "Personal git repos backup",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/node": "^12.12.7",
+    "@types/nodegit": "^0.24.13",
+    "ts-node": "^8.5.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.35.0",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "nodegit": "^0.26.2"
+  }
+}
